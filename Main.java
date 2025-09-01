@@ -21,39 +21,39 @@ public class Main {
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
-
-        //----------------------------------------------------------------------------------------
-        // Console Implementation of the Rock Paper Scissors Game.
-        //----------------------------------------------------------------------------------------
-
-        boolean quit = false;
-        printGameMenu();
-
-        while (!quit) {
-            System.out.print("\nPlease choose an option( Press 4 to see main menu ): ");
-            int option = input.nextInt();
-            input.nextLine();
-
-            switch (option) {
-                case 1:
-                    showGameRules();
-                    break;
-                case 2:
-                    singlePlayerMode();
-                    break;
-                case 3:
-                   multiPlayerMode();
-                    break;
-                case 4:
-                    printGameMenu();
-                    break;
-                case 5:
-                    quit = true;
-                    break;
-                default:
-                    System.out.println("Invalid option");
-            }
-        }
+//
+//        //----------------------------------------------------------------------------------------
+//        // Console Implementation of the Rock Paper Scissors Game.
+//        //----------------------------------------------------------------------------------------
+//
+//        boolean quit = false;
+//        printGameMenu();
+//
+//        while (!quit) {
+//            System.out.print("\nPlease choose an option( Press 4 to see main menu ): ");
+//            int option = input.nextInt();
+//            input.nextLine();
+//
+//            switch (option) {
+//                case 1:
+//                    showGameRules();
+//                    break;
+//                case 2:
+//                    singlePlayerMode();
+//                    break;
+//                case 3:
+//                   multiPlayerMode();
+//                    break;
+//                case 4:
+//                    printGameMenu();
+//                    break;
+//                case 5:
+//                    quit = true;
+//                    break;
+//                default:
+//                    System.out.println("Invalid option");
+//            }
+//        }
     }
 
     //----------------------------------------------------------------------------------------
