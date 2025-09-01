@@ -1,0 +1,48 @@
+RPS Game
+About the Rock Paper Scissor Game.
+I am developing this game to test and strengthen my knowledge of programming language and its related concepts.
+The capabilities and features of this game.
+
+GAME RULES AND INSTRUCTIONS.
+ROCK BEATS SCISSORS
+PAPER BEATS ROCK
+SCISSORS BEATS PAPER
+
+1. The game should be interactive.
+       use buttons, and animations to enhance user experience.
+       user should be able to easily manuever around the features as single player mode, multiplayer mode and also know some
+       features about the game.
+
+
+2. Single player mode -
+        This mode is where the player who uses the bot plays against the system.
+        The player should be able to choose from a list of available options of rock paper scissors and dual with the system
+        There should be a score board.
+
+3. Multiplayer Mode.
+        This mode is where the user plays along side another player from another device.
+        Each player should choose a playing object and dual with each other.
+        There should be a score board to track the user game system.
+
+
+4. Animations and Feedback
+Add animations for:
+Button clicks.
+Result announcement (win/lose/draw).
+Score update.
+Sound effects for added engagement.
+
+
+5. Optional Stretch features
+- Time Mode: Player has limited time to make a move.
+
+Game Development System
+
+🎯 Summary: Best Fit for Your Game
+Feature	Recommendation
+Project Structure	            Start with Modular / Monolithic, move to MVC as game grows
+Programming Paradigm        	Use OOP for game objects + Event-Driven for UI interaction
+Language	                    Java
+Scalability                   	Use modular structure + OOP for maintainability
+UI Handling                 	Event-driven programming is essential
+
